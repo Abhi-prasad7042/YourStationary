@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* src/global.css */
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  

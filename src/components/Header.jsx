@@ -11,14 +11,14 @@ function Header() {
   };
 
   return (
-    <nav className="bg-black text-white p-2">
+    <nav className="sticky top-0 z-10 w-full shadow-lg p-2 bg-white">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center cursor-pointer">
           <img src={LOGO_URL} alt="Logo" className="h-10" />
-          <p className="text-xl font-bold">Your Store</p>
+          <p className="text-xl font-bold text-yellow-400">Your Store</p>
         </div>
         <div className="hidden md:flex flex-grow justify-center space-x-8 mr-16">
-          <a href="#home" className="nav-link">Home</a>
+          <a href="#home" className="nav-link ">Home</a>
           <a href="#about" className="nav-link">About</a>
           <a href="#contact" className="nav-link">Contact</a>
         </div>

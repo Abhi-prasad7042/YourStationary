@@ -135,6 +135,41 @@ export const DATA = [
         "price": 1.50,
         "rating": 4.1,
         "description": "Convenient glue stick for easy application on paper and crafts."
+      },
+      {
+        "name": "A4 Sheets",
+        "img": "https://5.imimg.com/data5/KZ/OK/YQ/SELLER-98372194/jk-copy-paper-500x500.jpg",
+        "price": 5.99,
+        "rating": 4.5,
+        "description": "High-quality A4 sheets for all your printing needs."
+      },
+      {
+        "name": "Ballpoint Pen",
+        "img": "https://topperskit.com/cdn/shop/files/97_40a7f779-3ad2-4bec-a8ab-45a058da9f92.jpg?v=1709312396",
+        "price": 1.50,
+        "rating": 4.2,
+        "description": "Smooth writing ballpoint pen available in different colors."
+      },
+      {
+        "name": "Gel Pen",
+        "img": "https://m.media-amazon.com/images/I/81bAGUWcXaL._AC_UF1000,1000_QL80_.jpg",
+        "price": 2.00,
+        "rating": 4.7,
+        "description": "Premium gel pen for a smooth and vibrant writing experience."
+      },
+      {
+        "name": "Pencil",
+        "img": "https://c1.wallpaperflare.com/preview/242/886/490/pencils-graphite-grey-art.jpg",
+        "price": 0.99,
+        "rating": 4.4,
+        "description": "High-quality pencils for drawing and writing."
+      },
+      {
+        "name": "Eraser",
+        "img": "https://m.media-amazon.com/images/I/61l+c2wzG2L._AC_UF1000,1000_QL80_.jpg",
+        "price": 0.50,
+        "rating": 4.3,
+        "description": "Soft eraser that erases cleanly without tearing paper."
       }
     ]
   
