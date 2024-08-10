@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
-import { FaBars, FaTimes, FaShoppingCart } from 'react-icons/fa';
-import { LOGO_URL } from '../utils/constant';
-import './Header.css'; // Import the custom CSS file
+import { FaBars, FaTimes } from 'react-icons/fa';
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,31 +9,34 @@ function Header() {
   };
 
   return (
-    <nav className="sticky top-0 z-10 w-full shadow-lg p-2 bg-white">
-      <div className="container mx-auto flex justify-between items-center">
-        <div className="flex items-center cursor-pointer">
-          <img src={LOGO_URL} alt="Logo" className="h-10" />
-          <p className="text-xl font-bold text-yellow-400">Your Store</p>
+    <nav className="bg-black text-white sticky top-0 z-10">
+      {/* Navbar */}
+      <div className="flex justify-between items-center px-2 py-3">
+        {/* Logo Section */}
+        <div className="flex items-center space-x-4">
+          <img src="/logo.gif" alt="Store Logo" className="w-12 h-12" />
+          <div className="text-2xl font-bold text-[#FFEF20]">Your Store</div>
         </div>
-        <div className="hidden md:flex flex-grow justify-center space-x-8 mr-16">
-          <a href="#home" className="nav-link ">Home</a>
-          <a href="#about" className="nav-link">About</a>
-          <a href="#contact" className="nav-link">Contact</a>
+
+        {/* Desktop Menu */}
+        <div className="hidden md:flex space-x-4">
+          <button className="text-white">Log in</button>
+          <button className="bg-[#FFEF20] text-black py-2 px-4 rounded hover:bg-green-600">Sign up</button>
         </div>
-        <div className="flex items-center cursor-pointer">
-          <FaShoppingCart className="text-2xl mr-4" />
-          <div className="md:hidden">
-            <button onClick={toggleMenu} className="text-2xl focus:outline-none">
-              {isOpen ? <FaTimes /> : <FaBars />}
-            </button>
-          </div>
+
+        {/* Mobile Menu Icon */}
+        <div className="md:hidden">
+          <button onClick={toggleMenu} aria-label="Toggle menu">
+            {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
+          </button>
         </div>
       </div>
+
+      {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden mt-4">
-          <a href="#home" className="block py-2 px-4 hover:bg-gray-700">Home</a>
-          <a href="#about" className="block py-2 px-4 hover:bg-gray-700">About</a>
-          <a href="#contact" className="block py-2 px-4 hover:bg-gray-700">Contact</a>
+        <div className="md:hidden bg-black text-white p-4">
+          <button className="block w-full text-left py-2">Log in</button>
+          <button className="block w-full bg-green-500 text-white py-2 px-4 rounded mt-2 hover:bg-green-600">Sign up</button>
         </div>
       )}
     </nav>

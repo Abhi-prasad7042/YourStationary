@@ -5,5 +5,12 @@
 /* src/global.css */
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: black;
   }
   
+.desc{
+  width: 1300px;
+  height: 320px;
+  border-radius: 0% 5% 1% 5% / 0% 20% 0% 20%;
+  animation: liqued-bg 8s ease-in-out infinite;
+}

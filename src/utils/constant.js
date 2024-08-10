@@ -29,7 +29,7 @@ export const DATA = [
         "img": "https://c1.wallpaperflare.com/preview/242/886/490/pencils-graphite-grey-art.jpg",
         "price": 0.99,
         "rating": 4.4,
-        "description": "High-quality pencils for drawing and writing."
+        "description": "High-quality pencils for your drawing and writing."
       },
       {
         "name": "Eraser",
@@ -162,7 +162,7 @@ export const DATA = [
         "img": "https://c1.wallpaperflare.com/preview/242/886/490/pencils-graphite-grey-art.jpg",
         "price": 0.99,
         "rating": 4.4,
-        "description": "High-quality pencils for drawing and writing."
+        "description": "High-quality pencils for a drawing and  a writing."
       },
       {
         "name": "Eraser",

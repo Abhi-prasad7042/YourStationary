@@ -5,6 +5,9 @@ export default {
   ],
   theme: {
     extend: {
+      borderRadius: {
+        'custom': '0% 5% 1% 5% / 0% 20% 0% 20%',
+      },
       boxShadow: {
         'custom': '0 4px 6px -1px rgba(255, 255, 0, 0.1), 0 2px 4px -1px rgba(255, 255, 0, 0.06)',
       },
