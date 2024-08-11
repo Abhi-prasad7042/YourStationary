@@ -173,3 +173,36 @@ export const DATA = [
       }
     ]
   
+    export const ReviewData = [
+      {
+        img: 'https://img.freepik.com/premium-vector/young-man-face-avater-vector-illustration-design_968209-13.jpg',
+        text: "Our company recently purchased stationery supplies from Your Stationery Store, and we were thrilled with the quality and variety of products. The elegant pens and premium notebooks we received were exactly what we needed to enhance our office environment. Their attention to detail and customer service are outstanding.",
+        name: 'Tom Cook',
+        role: 'Tech Solutions Inc.',
+      },
+      {
+        img: 'https://png.pngtree.com/thumb_back/fh260/background/20230527/pngtree-an-animated-illustration-that-features-a-young-man-playing-a-game-image_2680953.jpg',
+        text: "Your Stationery Store provided us with top-notch office supplies that perfectly matched our needs. From the sleek, high-quality pens to the stylish notebooks, everything exceeded our expectations. We appreciate their commitment to excellence and would definitely recommend them to other businesses.",
+        name: 'Rick Wright',
+        role: 'Creative Ventures Ltd.',
+      },
+      {
+        img: 'https://png.pngtree.com/thumb_back/fh260/background/20230527/pngtree-in-the-style-of-dark-turquoise-and-light-navy-image_2698692.jpg',
+        text: "We've been sourcing our stationery from Your Stationery Store for months now, and the experience has been fantastic. The range of products and their quality are exceptional, which has positively impacted our team’s productivity. Their service is reliable and prompt, making them our go-to supplier.",
+        name: 'Alega Wind',
+        role: 'Innovative Designs Co.',
+      },
+      {
+        img: 'https://png.pngtree.com/thumb_back/fh260/background/20230527/pngtree-cartoon-of-a-young-woman-smiling-on-a-black-background-image_2680954.jpg',
+        text: "Our recent order from Your Stationery Store was a game-changer for our office. The notebooks and pens we received were of high quality and have made a noticeable difference in our daily operations. We are impressed with their product range and customer service.",
+        name: 'Rick Wright',
+        role: 'Digital Solutions Group',
+      },
+      {
+        img: 'https://i.pinimg.com/474x/8c/44/07/8c44070959b012caa775ee4929c15ffe.jpg',
+        text: "Your Stationery Store has consistently delivered high-quality products that meet our office needs. The pens and planners we ordered are stylish and functional, which has enhanced our work environment. Their dedication to quality and service is commendable.",
+        name: 'Mark J.',
+        role: 'Tech Innovators Inc.',
+      }
+    ];
+    

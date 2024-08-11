@@ -5,11 +5,16 @@ export default {
   ],
   theme: {
     extend: {
+      boxShadow: {
+        'custom-light': '3px 5px 8px rgba(255, 255, 255, 0.3)',
+        'custom-light-lg': '0px 10px 18px rgba(255, 255, 255, 0.3)', // Light shadow for dark backgrounds
+        'custom-dark': '0 4px 8px rgba(0, 0, 0, 0.5)', // Dark shadow for light backgrounds
+      },
+      scale: {
+        '102': '1.02',
+      },
       borderRadius: {
         'custom': '0% 5% 1% 5% / 0% 20% 0% 20%',
-      },
-      boxShadow: {
-        'custom': '0 4px 6px -1px rgba(255, 255, 0, 0.1), 0 2px 4px -1px rgba(255, 255, 0, 0.06)',
       },
       animation: {
         'blur-in': 'blurIn 1s ease-out forwards',

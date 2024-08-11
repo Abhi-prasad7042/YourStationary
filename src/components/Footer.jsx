@@ -3,9 +3,9 @@ import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white py-4 mt-8 border-t-[1px]">
+    <footer className=" text-white py-4 mt-8 border-t-[1px]">
       <div className="container mx-auto px-4">
-        <div className="flex flex-col md:flex-row justify-between items-center">
+        <div className="flex flex-col md:flex-row justify-between items-center px-5">
           {/* Contact Information */}
           <div className="text-center md:text-left mb-4 md:mb-0">
             <h2 className="text-xl font-bold mb-2 text-[#D388F8]">Your Store</h2>
@@ -44,12 +44,11 @@ const Footer = () => {
             </div>
           </div>
         </div>
-
-        {/* Copyright */}
-        <div className="text-center mt-4">
-          <p className="text-sm text-[#FFEF20]">&copy; {new Date().getFullYear()} Your Store. All rights reserved.</p>
-        </div>
       </div>
+      {/* Copyright */}
+      <div className="text-center mt-4">
+          <p className="text-sm text-yellow-300">&copy; {new Date().getFullYear()} Your Store. All rights reserved.</p>
+        </div>
     </footer>
   );
 };

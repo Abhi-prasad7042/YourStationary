@@ -11,15 +11,17 @@ const StationeryList = () => {
 
   return (
     <div>
-      
-      <div className=" p-3 bg-black -mt-24 text-white flex flex-col items-center">
-      <h2 className="text-3xl font-bold mb-8 text-[#FFEF20]">
-        Our Featured Products
-      </h2>
+      <div className="p-3 mt-10 text-black flex flex-col items-center">
+        <h2 className="text-3xl font-bold mb-8 text-[#d683ff]">
+          Featured Products
+        </h2>
         <div className="flex flex-wrap gap-12 w-full max-w-[1350px] justify-center">
           {itemsToDisplay.map((item, index) => (
-            <div key={index} className="w-[300px] h-[350px] p-2 rounded-lg hover:shadow-xl transition-shadow duration-300 flex flex-col items-center">
-              <div className="mb-4 w-full h-44 bg-[#121212]">
+            <div
+              key={index}
+              className="w-[300px] h-[370px] p-2 rounded-lg flex flex-col items-center transition-shadow duration-300 hover:scale-102 hover:shadow-custom-light-lg cursor-pointer"
+            >
+              <div className="mb-4 w-full h-44">
                 <img
                   src={item.img}
                   alt={item.name}
@@ -32,7 +34,7 @@ const StationeryList = () => {
                 <p className="text-white font-bold">${item.price.toFixed(2)}</p>
                 <p className="text-yellow-500">Rating: {item.rating} / 5</p>
               </div>
-              <button className='bg-white text-black px-4 py-2 rounded-xl hover:bg-green-600 transition duration-300'>
+              <button className='bg-[#ebe157] text-black px-4 py-2 rounded-xl hover:bg-[#FFEF20] transition duration-300'>
                 Add to Cart
               </button>
             </div>

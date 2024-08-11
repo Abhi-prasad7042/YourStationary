@@ -9,19 +9,19 @@ function Header() {
   };
 
   return (
-    <nav className="bg-black text-white sticky top-0 z-10">
+    <nav className="bg-black text-[#387F39] sticky top-0 z-10 shadow-custom-light">
       {/* Navbar */}
       <div className="flex justify-between items-center px-2 py-3">
         {/* Logo Section */}
         <div className="flex items-center space-x-4">
           <img src="/logo.gif" alt="Store Logo" className="w-12 h-12" />
-          <div className="text-2xl font-bold text-[#FFEF20]">Your Store</div>
+          <div className="text-2xl font-bold text-purple-500">Your Store</div>
         </div>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-4">
           <button className="text-white">Log in</button>
-          <button className="bg-[#FFEF20] text-black py-2 px-4 rounded hover:bg-green-600">Sign up</button>
+          <button className="bg-[#C8A1E0] text-black py-2 px-4 rounded hover:bg-purple-500">Sign up</button>
         </div>
 
         {/* Mobile Menu Icon */}
