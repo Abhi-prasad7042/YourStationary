@@ -4,7 +4,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'; // Import carous
 
 const BannerCarousel = () => {
   return (
-    <div className="carousel-container p-4 sm:-mt-24 ">
+    <div className="carousel-container p-4 sm:-mt-24 -mt-10">
       <Carousel
         showThumbs={false}
         autoPlay

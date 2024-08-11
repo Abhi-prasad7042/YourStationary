@@ -8,7 +8,7 @@ const Banner = () => {
       {/* Hero Section */}
       <div className="flex flex-col-reverse md:flex-row items-center justify-between p-6 md:p-12">
         {/* Left Section - Text Content */}
-        <div className="text-left md:w-1/2 w-full mb-6 md:mb-0">
+        <div className="text-left md:w-1/2 w-full mb-6 md:mb-0 sm:mt-0 mt-5">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 text-[#D388F8]">Find Your Stationery Here</h1>
           <p className="text-lg text-white sm:text-xl mb-6">Discover an exquisite range of stationery products tailored for every need. Shop online and elevate your writing experience!</p>
           <button className="bg-[#FFEF20] text-black py-1 sm:py-2 px-4 sm:px-4 rounded text-base sm:text-lg font-semibold hover:bg-[#E86B00">
